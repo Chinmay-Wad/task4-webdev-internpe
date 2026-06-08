@@ -1,0 +1,32 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color:aliceblue;
+}
+
+#board{
+    height: 540px;
+    width: 640px;
+    background-color: rgb(156, 102, 207);
+    border: 10px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.red-tile{
+    background-color: red;
+}
+
+.green-tile{
+    background-color: greenyellow;
+}
